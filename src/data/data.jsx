@@ -1,5 +1,6 @@
-import WorkIm from '../assets/workImg.jpeg'
+import WorkIm from '../assets/stackoverflow2.png'
 import RealEst from '../assets/realestate.jpg'
+import Auth from '../assets/auth.png'
 
 export const data=[
     {
@@ -19,14 +20,14 @@ export const data=[
     {
         id:3,
         name:"React JS Application",
-        image:WorkIm,
+        image:Auth,
         github:"",
         live:"",
     },
     {
         id:4,
         name:"React JS Application",
-        image:RealEst,
+        image:"http://www.w3.org/2000/svg",
         github:"",
         live:"",
     },

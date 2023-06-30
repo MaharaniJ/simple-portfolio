@@ -25,9 +25,14 @@ const Work = () => {
           {project.map((item, index) => (
   <div
     key={index}
-    style={{ backgroundImage: `url(${item.image})` }}
-    className="shadow-lg shadow-[#040c16] group container rounded-md hover:scale-110 transition duration-500 cursor-pointer
-      flex justify-between text-center items-center mx-auto content-div">
+    style={{ backgroundImage: `url(${item.image})`,
+    display: 'block',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+    }}
+      className="shadow-lg shadow-[#040c16] group container rounded-md hover:scale-110 transition duration-500 cursor-pointer
+      flex justify-between text-center items-center mx-auto content-div"> 
     {/* Hover effect for images */}
     <div className="opacity-0 group-hover:opacity-100 ">
       <span className="text-2xl font bold text-white tracking-wider ">
