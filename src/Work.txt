@@ -1,0 +1,175 @@
+import React from "react";
+import { data } from "./data/data.jsx";
+
+const Work = () => {
+  // projects file
+  const project = data;
+  //setProject(data);
+
+  return (
+    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+            Work
+          </p>
+          <p className="py-6"> Check out some of my recent work</p>
+        </div>
+
+        {/* container for projects */}
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 bg-black">
+          {/* Gird Item */}
+          {project.map((item, index) => (
+            <div
+              key={index}
+              style={{
+                backgroundImage: `url(${item.image})`,
+                display: "block",
+                justifyContent: "center",
+                alignItems: "center",
+                position: "relative",
+              }}
+              className="shadow-lg shadow-[#040c16] group container rounded-md hover:scale-110 transition duration-500 cursor-pointer
+      flex justify-between text-center items-center mx-auto content-div"
+            >
+              {/* Hover effect for images */}
+              <div className="opacity-0 group-hover:opacity-100 ">
+                <span className="text-2xl font bold text-black tracking-wider ">
+                  {item.name}
+                </span>
+                <div className="pt-8 text-center ">
+                  {/* eslint-disable-next-line */}
+                  <a href={item.github} target="_blank">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                  {/* eslint-disable-next-line */}
+                  <a href={item.live} target="_blank">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Live
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Work;
+
+
+social-logins:
+   <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.linkedin.com/in/maharani-jeyaraman-937488271"
+            >
+              Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://github.com/MaharaniJ"
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://mail.google.com/mail/u/0/#inbox"
+            >
+              Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="/"
+            >
+              Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+------------------_----------------------------------------------------------------------------
+
+
+      import React from 'react'
+import {motion} from 'framer-motion'
+import { fadeIn } from '../variants'
+import Img1 from '../assets/stackoverflow1.png'
+import Img2 from '../assets/social-login.png'
+import Img3 from '../assets/todo-app.png'
+
+function Work() {
+  return (
+   <section className='section' id='work '>
+    <div className='container mx-auto '>
+    <div className='flex flex-col lg:flex-row gap-x-10 '>
+      <motion.div 
+       variants={fadeIn('left',0.5)}
+       initial='hidden'
+       whileInView={'show'}
+       viewport={{once:false,amount:0.3}}
+      className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0 '>
+          <div>
+          <h2 className='h2 leading-tight text-accent'>My Latest Work</h2>
+          </div>
+          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+            <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt=""/>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+              <span className='text-3xl text-white text-gradient '>Fullstack Developer</span>
+            </div>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <span className='text-3xl text-white'>Project Title</span>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div 
+        variants={fadeIn('left',0.5)}
+        initial='hidden'
+        whileInView={'show'}
+        viewport={{once:false,amount:0.3}}
+        className='flex-1 flex flex-col gap-y-10'>
+         <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+            <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt=""/>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+              <span className='text-gradient '>Fullstack Developer</span>
+            </div>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <span className='text-3xl text-white'>Project Title</span>
+            </div>
+          </div>
+          {/* //----------- */}
+          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+            <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt=""/>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+              <span className='text-gradient '>Fullstack Developer</span>
+            </div>
+            <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <span className='text-3xl text-white'>Project Title</span>
+            </div>
+          </div>
+        </motion.div>
+       
+      </div>
+    </div>
+   </section>
+  )
+}
+
+export default Work

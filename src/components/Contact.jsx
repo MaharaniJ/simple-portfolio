@@ -19,7 +19,7 @@ const Contact = () => {
                  initial='hidden'
                  viewport={{once:false,amount:0.3}}
                  whileInView={'show'}
-                className='text-gray-300 py-4'> Submit the form below or shoot me an email - vutukuri.kumar192st.niituniversity.in</motion.p>
+                className='text-gray-300 py-4'> Submit the form below or shoot me an email - jeyamaha98@gmail.com</motion.p>
             </div>
         
            <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />

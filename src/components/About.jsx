@@ -17,7 +17,7 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
               About
             </p>
-          /</motion.div>
+          </motion.div>
          
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
@@ -37,11 +37,17 @@ const About = () => {
                viewport={{once:false,amount:0.3}}
                whileInView={'show'}
                className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
-              I am passionate about building excellent software that improves
+              {/* I am passionate about building excellent software that improves
               the lives of those around me. I specialize in creating software
               for clients ranging from individuals and small-businesses all the
               way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</motion.p>  
+              a software expert available at your fingertips? */}
+With a strong foundation in web development using MERN Stack, I bring a set of skills 
+that can contribute to the success of your projects.I am passionate about building excellent
+web development projects that improves the lives of those around me. I interested in creating responsive 
+websites and web applications for clients ranging from individuals and small-businesses all the way to large enterprise corporations. 
+
+              </motion.p>  
             </div>
           </div>
       </div>
