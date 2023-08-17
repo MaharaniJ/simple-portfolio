@@ -178,3 +178,11 @@ getform.io
 https://www.youtube.com/watch?v=YEH2GLFJhQY
 
 https://docs.getform.io/installations/
+
+ {/* Hover effect for images */}
+              {/* className="opacity-0 group-hover:opacity-100 " 
+              z-40 duration-300 
+              hover:scale-110 duration-500
+              group relative overflow-hidden border-2 border-white/50 rounded-xl
+               group-hover:bg-pink-100 w-full h-full  transition-all
+               */}

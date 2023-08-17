@@ -27,9 +27,9 @@ const Work = () => {
               flex justify-center text-center items-center  mx-auto content-div "
             >
               {/* Hover effect for images */}
-              {/* className="opacity-0 group-hover:opacity-100 " */}
-              <div>
-                <span className="text-2xl font bold text-red-700 tracking-wider">
+
+              <div className=" hover:scale-90  duration-500 ">
+                <span className="text-2xl mt-2 font-bold overflow-hidden text-blue-700 tracking-wider">
                   {item.name}
                 </span>
                 <div className="pt-8 text-center mb-5 ">
