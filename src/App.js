@@ -14,10 +14,10 @@ function App() {
     <div className="m-2">
       <Skills />
     </div>
-    <div className="m-2">
+    <div className="m-3">
       <Work />
     </div>
-    <div className="m-2">
+    <div className="m-3">
       <Contact />
     </div>
   </div>
