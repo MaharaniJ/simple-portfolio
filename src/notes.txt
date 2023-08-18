@@ -186,3 +186,71 @@ https://docs.getform.io/installations/
               group relative overflow-hidden border-2 border-white/50 rounded-xl
                group-hover:bg-pink-100 w-full h-full  transition-all
                */}
+
+
+
+    Works:
+
+    // const Work = () => {
+//   // projects file
+//   const project = data;
+//   //setProject(data);
+
+//   return (
+//     <div name="work" className="w-full md:h-screen text-gray-300  bg-[#0a192f]">
+//       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+//         <div className="pb-8">
+//           <p className="inline border-b-4 text-gray-300 border-pink-600">
+//             Work
+//           </p>
+//           <p className="py-6"> Check out some of my recent work</p>
+//         </div>
+
+//         {/* container for projects */}
+//         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+//           {/* Gird Item */}
+//           {project.map((item, index) => (
+//             <div
+//               key={index}
+//               style={{ backgroundImage: `url(${item.image})` }}
+//               className="shadow-lg shadow-[#46464c] group container rounded-md
+//               flex justify-center text-center items-center  mx-auto content-div "
+//             >
+//               {/* Hover effect for images */}
+
+//               <div className=" hover:scale-90  duration-500 ">
+//                 <span className="mt-2 overflow-hidden text-blue-700 tracking-wider">
+//                   {item.name}
+//                 </span>
+//                 <div className="pt-8 text-center mb-5 ">
+//                   {/* eslint-disable-next-line */}
+//                   <a href={item.github} target="_blank">
+//                     <button
+//                       className="text-center rounded-lg px-4 py-3 m-2
+//                        bg-blue-500 text-gray-700 text-lg"
+//                     >
+//                       Code
+//                     </button>
+//                   </a>
+//                   {/* eslint-disable-next-line */}
+//                   <a href={item.live} target="_blank">
+//                     <button
+//                       className="text-center rounded-lg px-4 py-3 m-2
+//                        bg-blue-500 text-gray-700 text-lg"
+//                     >
+//                       Live
+//                     </button>
+//                   </a>
+//                 </div>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Work;
+
+// ... (other imports and component setup)

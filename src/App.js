@@ -7,7 +7,7 @@ import Work from "./components/Work.jsx";
 import Contact from "./components/Contact.jsx";
 function App() {
   return (
-    <div>
+    <div className="grid gap-0">
       <Navbar />
       <Home />
       <About />
