@@ -1,15 +1,12 @@
 import React from "react";
 import { data } from "../data/data";
 
-
-
-
 const Work = () => {
   // projects file
   const project = data;
   //setProject(data);
 
-  // ... (other code)
+ 
 
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -19,7 +16,6 @@ const Work = () => {
             Work
           </p>
           <p className="py-6"> Check out some of my recent work</p>
-          {/* ... (other code) */}
         </div>
 
         {/* container for projects */}
@@ -29,14 +25,15 @@ const Work = () => {
             <div
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
-              className="shadow-lg shadow-[#46464c] group container rounded-md flex flex-col justify-between mx-auto content-div card-container  hover:scale-90 duration-500"
+              className="shadow-lg shadow-[#46464c] group container rounded-md flex flex-col justify-center 
+               mx-auto content-div card-container  hover:scale-90 duration-500"
             >
               {/* Image */}
-              <div className="card-image"></div>
+              <div className="card-image "></div>
 
               {/* Project Details */}
               <div className="card-details flex flex-col justify-between p-4">
-                <span className="mt-2 overflow-hidden text-blue-700 tracking-wider">
+                <span className="mt-2 overflow-hidden text-blue-700 tracking-wider text-center">
                   {item.name}
                 </span>
                 <div className="pt-8 text-center mb-5">
@@ -49,8 +46,7 @@ const Work = () => {
                       Code
                     </button>
                   </a>
-                  {/* eslint-disable-next-line */}
-                  <a href={item.live} target="_blank">
+                  <a href={item.live}>
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
                        bg-blue-500 text-gray-700 text-lg"
@@ -58,7 +54,6 @@ const Work = () => {
                       Live
                     </button>
                   </a>
-                  {/* ... (buttons and links) */}
                 </div>
               </div>
             </div>
