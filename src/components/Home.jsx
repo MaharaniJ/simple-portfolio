@@ -9,7 +9,9 @@ function Home() {
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/*container*/}
       <div className="max-w-[1000px] mx-auto mt-8 px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600 text-1xl">Hello Visitor, Warm Welcome! to My Portfolio.</p>
+        <p className="text-pink-600 text-1xl">
+          Hello Visitor, Warm Welcome! to My Portfolio.
+        </p>
         <p className="text-pink-600 text-1xl">My Name is</p>
         <h1 className="text-2xl sm:text-7xl font-bold text-[#ccd6f6]">
           MAHARANI J
@@ -83,9 +85,9 @@ function Home() {
           />
         </motion.div>
         <p className="text-[#ecedef] text-1xl py-4 max-w-[700px]">
-          Specializing in building and occasionally
-          designing exceptional digital experiences. Currently, I'm focused on
-          bulding responsive full-stack web applications.
+          Specializing in building and occasionally designing exceptional
+          digital experiences. Currently, I'm focused on bulding responsive
+          full-stack web applications.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">

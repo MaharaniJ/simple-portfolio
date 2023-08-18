@@ -17,35 +17,34 @@ const Navbar = () => {
       {/* className="hidden md:flex" */}
 
       {/* menu  */}
-     
-        <ul className=" hidden md:flex space-x-8">
-          <li>
-            <Link to="home" smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="about" smooth={true} duration={500}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="skills" smooth={true} duration={500}>
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link to="work" smooth={true} duration={500}>
-              Work
-            </Link>
-          </li>
-          <li>
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
-          </li>
-        </ul>
-      
+
+      <ul className=" hidden md:flex space-x-8">
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
+      </ul>
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
