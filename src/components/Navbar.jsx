@@ -17,7 +17,7 @@ const Navbar = () => {
       {/* className="hidden md:flex" */}
 
       {/* menu  */}
-      <div className="text-2xl">
+     
         <ul className=" hidden md:flex space-x-8">
           <li>
             <Link to="home" smooth={true} duration={500}>
@@ -45,7 +45,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
