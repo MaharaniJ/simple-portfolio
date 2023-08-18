@@ -14,7 +14,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="sm:text-right pb-8 pl-4"
           >
-            <p className="text-2xl font-bold inline border-b-4 border-pink-600">
+            <p className="inline border-b-4 border-pink-600">
               About
             </p>
           </motion.div>

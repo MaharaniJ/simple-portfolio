@@ -21,10 +21,10 @@ const Skills = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-2xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="inline border-b-4 border-pink-600 ">
             Skills
           </p>
-          <p className="py-4 text-2xl ">
+          <p className="py-4">
             {" "}
             Few of the web technologies I've worked with:
           </p>

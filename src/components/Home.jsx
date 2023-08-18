@@ -9,9 +9,9 @@ function Home() {
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/*container*/}
       <div className="max-w-[1000px] mx-auto mt-8 px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600 text-2xl">Hello Visitor, Warm Welcome! to My Portfolio.</p>
-        <p className="text-pink-600 text-2xl">My Name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <p className="text-pink-600 text-1xl">Hello Visitor, Warm Welcome! to My Portfolio.</p>
+        <p className="text-pink-600 text-1xl">My Name is</p>
+        <h1 className="text-2xl sm:text-7xl font-bold text-[#ccd6f6]">
           MAHARANI J
         </h1>
         {/* <h2 className='text-4xl sm"text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer.</h2> */}
@@ -22,7 +22,7 @@ function Home() {
           viewport={{ once: false, amount: 0.7 }}
           className="text-4xl sm:text-5xl  text-[#8892b0] font-secondary font-semibold uppercase leading-[1]"
         >
-          <span className="text-white text-4xl mr-4">I am a </span>
+          <span className="text-white text-2xl mr-4">I am a </span>
           {/* <TypeAnimation sequence={[ */}
           {/* // 'MERN Stack Developer',
                 // 1000, */}
@@ -82,7 +82,7 @@ function Home() {
             style={{ display: "inline-block" }}
           />
         </motion.div>
-        <p className="text-[#ecedef] text-2xl py-4 max-w-[700px]">
+        <p className="text-[#ecedef] text-1xl py-4 max-w-[700px]">
           Specializing in building and occasionally
           designing exceptional digital experiences. Currently, I'm focused on
           bulding responsive full-stack web applications.

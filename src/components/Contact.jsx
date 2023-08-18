@@ -13,13 +13,13 @@ const Contact = () => {
                  initial='hidden'
                  whileInView={'show'}
                  viewport={{once:false, amount:0.7}} 
-                className='sm:text-right text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</motion.p>
+                className='sm:text-right  inline border-b-4 border-pink-600 text-gray-300'>Contact</motion.p>
                 <motion.p 
                  variants={fadeIn('right',0.3)}
                  initial='hidden'
                  viewport={{once:false,amount:0.3}}
                  whileInView={'show'}
-                className='text-gray-300 py-4 text-1xl '> Submit the form below or shoot me an email - jeyamaha98<span className='font-bold text-1xl'>@</span>gmail.com</motion.p>
+                className='text-gray-300 py-4 '> Submit the form below or shoot me an email - jeyamaha98<span className='font-bold text-1xl'>@</span>gmail.com</motion.p>
             </div>
         
            <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />
