@@ -47,7 +47,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden z-10 top-5 right-6">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -55,8 +55,12 @@ const Navbar = () => {
       <ul
         className={
           !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+          
+          ? "absolute top-0 left-0 w-full h-screen bg-blue-900 text-white py-4 text-center"
+          : "hidden"
+            // ? "hidden"
+            // : "fixed top-0 left-0 w-full h-screen bg-blue-900 text-white py-4 text-center"
+            // "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">

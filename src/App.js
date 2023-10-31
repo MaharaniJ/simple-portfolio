@@ -8,19 +8,19 @@ import Contact from "./components/Contact.jsx";
 function App() {
   return (
     <div className="grid gap-4 bg-[#0a192f]">
-    <Navbar />
-    <Home />
-    <About />
-    <div className="m-2">
-      <Skills />
+      <Navbar />
+      <Home />
+      <About />
+      <div className="m-2" >
+        <Skills />
+      </div>
+      <div className="m-3">
+        <Work />
+      </div>
+      <div className="m-3">
+        <Contact />
+      </div>
     </div>
-    <div className="m-3">
-      <Work />
-    </div>
-    <div className="m-3">
-      <Contact />
-    </div>
-  </div>
   );
 }
 

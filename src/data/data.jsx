@@ -13,8 +13,11 @@ export const data = [
     name: "MERN stack Social Login",
     image: WorkIm,
     //   "https://i.pinimg.com/564x/14/b3/b3/14b3b389554cfd1a84002274e7adda8c.jpg",
-    github: "https://github.com/MaharaniJ/social-login-frontend.git",
-    live: "https://startling-figolla-c506c8.netlify.app",
+    github: "https://github.com/MaharaniJ/gmail-client.git",
+    live: "https://adorable-queijadas-af5e45.netlify.app",
+
+    // github: "https://github.com/MaharaniJ/social-login-frontend.git",
+    // live: "https://startling-figolla-c506c8.netlify.app",
   },
   {
     id: 3,
@@ -39,7 +42,6 @@ export const data = [
     github: "https://github.com/MaharaniJ/Day21Promise_NYTimesBooksAPI.git",
     live: "https://frabjous-fudge-6a4488.netlify.app/",
   },
-
 ];
 
 //   {
