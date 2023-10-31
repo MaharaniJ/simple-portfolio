@@ -55,12 +55,13 @@ const Navbar = () => {
       <ul
         className={
           !nav
-          
-          ? "absolute top-0 left-0 w-full h-screen bg-blue-900 text-white py-4 text-center"
-          : "hidden"
-            // ? "hidden"
-            // : "fixed top-0 left-0 w-full h-screen bg-blue-900 text-white py-4 text-center"
-            // "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            ? "hidden"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+
+          // ? "absolute top-0 left-0 w-full h-screen bg-blue-900 text-white py-4 text-center"
+          // : "hidden"
+
+          // : "fixed top-0 left-0 w-full h-screen bg-blue-900 text-white py-4 text-center"
         }
       >
         <li className="py-6 text-4xl">
