@@ -10,6 +10,13 @@ export const data = [
   },
   {
     id: 2,
+    name: "E-Commerce Clone",
+    image: WorkIm,
+    github: "https://github.com/MaharaniJ/e-commerce-client.git",
+    live: "https://earnest-churros-296ef7.netlify.app/",
+  },
+  {
+    id: 3,
     name: "MERN stack Social Login",
     image: WorkIm,
     //   "https://i.pinimg.com/564x/14/b3/b3/14b3b389554cfd1a84002274e7adda8c.jpg",
@@ -19,8 +26,9 @@ export const data = [
     // github: "https://github.com/MaharaniJ/social-login-frontend.git",
     // live: "https://startling-figolla-c506c8.netlify.app",
   },
+
   {
-    id: 3,
+    id: 4,
     name: "React JS TODO Application",
     image: WorkIm,
     //   "https://i.pinimg.com/564x/b3/fd/b1/b3fdb1a44a87147bdf38d75894223484.jpg",
@@ -28,7 +36,7 @@ export const data = [
     live: "https://velvety-nasturtium-d96e1c.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "REST Countries",
     image: WorkIm,
     github: "https://github.com/MaharaniJ/RESTCountries_Weather.git",
@@ -36,7 +44,7 @@ export const data = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "NYTimes Books API",
     image: WorkIm,
     github: "https://github.com/MaharaniJ/Day21Promise_NYTimesBooksAPI.git",
